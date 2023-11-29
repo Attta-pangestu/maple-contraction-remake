@@ -1,0 +1,17 @@
+@import 'root.css';
+@import 'wrapper.css';
+@import 'header.css';
+
+
+
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+.heading.span{
+    color: var(--tersiery-color);
+}
+

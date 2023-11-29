@@ -1,0 +1,30 @@
+header .header__image {
+    overflow: hidden;
+    width: 200px;
+    
+}
+
+header .header__image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.navbar .navbar__menu{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar__menu > li {
+    text-decoration: none;
+    list-style: none;
+}
+.navbar__menu > li > a {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.navbar__menu > li:hover a{
+    color: var(--secondary-color);
+}
