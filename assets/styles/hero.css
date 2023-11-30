@@ -1,0 +1,53 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.hero .hero__content{
+    flex:2 2 50% ;
+    padding-top: 6.5rem;
+}
+
+.hero .hero__content:hover{
+    color: rgb(0,0,0);
+}
+
+.hero .hero__image {
+    flex: 1 1 40%;
+    overflow: hidden;
+}
+
+.hero .hero__image img{
+    width: 100%;
+    padding: 1rem;
+    object-fit: cover;
+    object-position: center;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0rem);
+    }
+
+    100%{
+        transform: translateY(1rem);
+    }
+}
+
+
+.hero .hero__content h3{
+    font-size: 5rem;
+    color: var(--primary-color);
+}
+
+.hero .hero__content p{
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+    padding: 1rem 0;
+
+}
+
